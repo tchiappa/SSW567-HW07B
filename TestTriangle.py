@@ -79,7 +79,7 @@ class TestTriangles(unittest.TestCase):
     # --- Boundary: zero (valid per spec, degenerate triangle) ---
 
     def testZero_a(self):                   # T17
-        self.assertEqual(classifyTriangle(0, 1, 1), 'NotATriangle', 'T17: 0 is valid per spec; 0+1=1 is degenerate')
+        self.assertEqual(classifyTriangle(0, 1, 1), 'NotATriangle', 'T17: 0 is valid per comment')
 
     # --- Boundary: upper valid boundary ---
 
