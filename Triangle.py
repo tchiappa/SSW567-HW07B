@@ -36,7 +36,7 @@ def classifyTriangle(a,b,c):
     if a > 200 or b > 200 or c > 200:
         return 'InvalidInput'
         
-    if a <= 0 or b <= 0 or c <= 0:
+    if a < 0 or b < 0 or c < 0:
         return 'InvalidInput'
       
     # This information was not in the requirements spec but 
