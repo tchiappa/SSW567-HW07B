@@ -19,7 +19,7 @@ def classifyTriangle(a,b,c):
     
     return:
         If all three sides are equal, return 'Equilateral'
-        If exactly one pair of sides are equal, return 'Isoceles'
+        If exactly one pair of sides are equal, return 'Isosceles'
         If no pair of  sides are equal, return 'Scalene'
         If not a valid triangle, then return 'NotATriangle'
         If the sum of any two sides equals the squate of the third side, then return 'Right'
@@ -54,4 +54,4 @@ def classifyTriangle(a,b,c):
     elif (a != b) and  (b != c) and (a != b):
         return 'Scalene'
     else:
-        return 'Isoceles'
+        return 'Isosceles'
