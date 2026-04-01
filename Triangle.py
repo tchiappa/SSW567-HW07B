@@ -51,7 +51,7 @@ def classifyTriangle(a,b,c):
         return 'Equilateral'
     elif ((a ** 2) + (b ** 2)) == (c ** 2) or ((b ** 2) + (c ** 2)) == (a ** 2) or ((c ** 2) + (a ** 2)) == (b ** 2):
         return 'Right'
-    elif (a != b) and  (b != c) and (a != b):
+    elif (a != b) and (b != c) and (a != c):
         return 'Scalene'
     else:
         return 'Isosceles'
